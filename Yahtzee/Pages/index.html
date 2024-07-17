@@ -1,0 +1,103 @@
+<DOCTYPE !html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Yahtzee</title>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    
+    <div class="game-window">
+        <table id="table-container">
+            <thead class="tableHead">
+                <tr class="tableRow">
+                    <th class="table-cell">1st Dice</th>
+                    <th class="table-cell">2nd Dice</th>
+                    <th class="table-cell">3rd Dice</th>
+                    <th class="table-cell">4th Dice</th>
+                    <th class="table-cell">5th Dice</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="tableRow">
+                    <td id="cell1" class="table-cell">0</td><!--dice one-->
+                    <td id="cell2" class="table-cell">0</td><!--dice two-->
+                    <td id="cell3" class="table-cell">0</td><!--dice three-->
+                    <td id="cell4" class="table-cell">0</td><!--dice four-->
+                    <td id="cell5" class="table-cell">0</td><!--dice five-->
+                </tr>
+            </tbody>
+            </table>
+            <table id="result-table-container">
+            <tbody class="resultTable">
+                <tr class="resultTableRow">
+                    <td>
+                    three of a kind
+                    </td>
+                    <td id="threeOfAKind">
+                    x
+                    </td>
+                </tr>
+                <tr class="resultTableRow">
+                    <td>
+                    four of a kind
+                    </td>
+                    <td id="fourOfAKind">
+                    x
+                    </td>
+                </tr>
+                <tr class="resultTableRow">
+                    <td>
+                    small straight
+                    </td>
+                    <td id="smallStraight">
+                    x
+                    </td>
+                </tr>
+                <tr class="resultTableRow">
+                    <td>
+                    large straight
+                    </td>
+                    <td id="largeStraight">
+                    x
+                    </td>
+                </tr>
+                <tr class="resultTableRow">
+                    <td>
+                    full house
+                    </td>
+                    <td id="fullHouse">
+                    x
+                    </td>
+                </tr>
+                <tr class="resultTableRow">
+                    <td>
+                    yahtzee
+                    </td>
+                    <td id="yahtzee">
+                    x
+                    </td>
+                </tr>
+                <tr class="resultTableRow">
+                    <td>
+                    chance
+                    </td>
+                    <td id="chance">
+                    x
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        <button id="throwButton" class="throw-button">Throw</button>
+        <button id="resetButton" class="throw-button">reset</button>
+    </div>   
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+table{
+    border: 1px solid black;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.result-table-container{
+    width: 50%;
+    text-align: left;
+    border-collapse:collapse;
+}
+.tableRow{
+    text-align: center;
+}
+.table-cell{
+    border: 1px solid black;
+    width: 20%;
+}
+.throw-button{
+    margin: 20px 50px;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 50px;
+    box-shadow: 3px 6px;
+    
+}

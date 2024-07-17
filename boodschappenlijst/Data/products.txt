@@ -1,0 +1,31 @@
+name,unitPrice
+Brood, 1.00
+Brocolli, 0.99
+Krentenbollen, 1.20
+Noten, 2.99
+Muesli,2.25
+Havermout,1.80
+Appels,0.60
+Peren,0.75
+Kaas,3.25
+Pasta,1.80
+Rijst,1.25
+Tomaten,0.90
+Komkommers,0.70
+Chocolade,2.50
+Yoghurt,1.20
+Sinaasappels,0.80
+Wortels,0.50
+Aardappelen,1.10
+Kipfilet,4.25
+Zalmfilet,6.99
+Pindakaas,2.20
+Jam,1.75
+Honing,3.50
+Chips,1.80
+Koffie,3.00
+Thee,2.50
+Melkchocolade,1.95
+Bananen,0.70
+Avocado's,1.75
+Olijfolie,4.50
